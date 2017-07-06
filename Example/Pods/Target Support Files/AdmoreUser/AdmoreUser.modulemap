@@ -1,0 +1,6 @@
+framework module AdmoreUser {
+  umbrella header "AdmoreUser-umbrella.h"
+
+  export *
+  module * { export * }
+}

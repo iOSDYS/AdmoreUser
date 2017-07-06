@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1506AFE3FFCC6BD93C24F608DFD153DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		332EB9B5E643C3CD20DDE2C7CB467AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A3E671FA1DE3B493CB769AE92773791 /* Pods-AdmoreUser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BE5C08F0296D66787D87D700E33D9D /* Pods-AdmoreUser_Tests-dummy.m */; };
+		4A480174BF38D595841801D9195A8F8F /* Pods-AdmoreUser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF246EC11A4FD577B919673EE15ECD /* Pods-AdmoreUser_Example-dummy.m */; };
+		4C70A46893A63CF8F96E7BFBD45D1A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5BFCE7E5C0A9F7C9834D3AB36B142430 /* AdmoreUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A6548D1DB3F3F3D30FE8D72E5EBEF5 /* AdmoreUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		770B3E68ED52929C1A1B92B8C19D2AB1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF8B1748C6B9A80C1095ECF540E7E6 /* ReplaceMe.m */; };
+		D28DE74943B7ECB975933E25686FA7B4 /* Pods-AdmoreUser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02E3DE0411A06C3E606FB63FA6DA6BD /* Pods-AdmoreUser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6D42BD7EDD67BAAF954049FEC425FBA /* Pods-AdmoreUser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7B2DACEB0C6643DEC71A0A9F1609EA /* Pods-AdmoreUser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1D5AF79C01E3005E3DA4716FBD08517 /* AdmoreUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB19810E00362144CFCFCCD2A017CE0 /* AdmoreUser-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		914EE759126903763435DEB513465EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D86CD526211AB163462F611272EC11B;
+			remoteInfo = AdmoreUser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017CD80F0A444A9EF4AC42C9852FD4D9 /* Pods-AdmoreUser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmoreUser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A4530829109EB4623A0AC9581673312 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EDA12941A83297BB0745C52D496A14 /* Pods-AdmoreUser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdmoreUser_Example.modulemap"; sourceTree = "<group>"; };
+		2FB19810E00362144CFCFCCD2A017CE0 /* AdmoreUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdmoreUser-dummy.m"; sourceTree = "<group>"; };
+		40D2B093E5E36F415B3723D5EF6ACA93 /* AdmoreUser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdmoreUser.xcconfig; sourceTree = "<group>"; };
+		4CC358D37F47AC08F834D2C16279D800 /* Pods-AdmoreUser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdmoreUser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59060267E3BD965DBF5E62A6E20EB841 /* Pods_AdmoreUser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdmoreUser_Tests.framework; path = "Pods-AdmoreUser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFDCD1C7937B123F8F5A98921C7311A /* Pods-AdmoreUser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdmoreUser_Tests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EC67AC6C72E07072322384195F50144 /* AdmoreUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AdmoreUser.modulemap; sourceTree = "<group>"; };
+		715FDCD0B07A2336DBF90147F18588C5 /* Pods-AdmoreUser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdmoreUser_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		787A05A0E8F7264C69A1E8D918741597 /* AdmoreUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdmoreUser-prefix.pch"; sourceTree = "<group>"; };
+		80CF8B1748C6B9A80C1095ECF540E7E6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		84CF246EC11A4FD577B919673EE15ECD /* Pods-AdmoreUser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdmoreUser_Example-dummy.m"; sourceTree = "<group>"; };
+		86F5E77D7D51B7AFC16448D2F4C9B13D /* Pods-AdmoreUser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdmoreUser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C3BBF12669948ADC63155D5D2E0D812 /* Pods-AdmoreUser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmoreUser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9093D805E5D07BFCC240D1A0B4F20F27 /* Pods-AdmoreUser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdmoreUser_Tests-resources.sh"; sourceTree = "<group>"; };
+		918E4C7F174BE35A6FD4A4379DBB093A /* Pods-AdmoreUser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdmoreUser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3BC00A04AE179088D5A052809299CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02E3DE0411A06C3E606FB63FA6DA6BD /* Pods-AdmoreUser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdmoreUser_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A909F71E6125F6DD89A23EBE70A557D1 /* Pods-AdmoreUser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmoreUser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B0A6548D1DB3F3F3D30FE8D72E5EBEF5 /* AdmoreUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdmoreUser-umbrella.h"; sourceTree = "<group>"; };
+		B9F484C10EFCBFCF0CFD653FB2C36E64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C7B0AA95CE0B73BD09857B2A88DD9F /* AdmoreUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AdmoreUser.framework; path = AdmoreUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BE5C08F0296D66787D87D700E33D9D /* Pods-AdmoreUser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdmoreUser_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB7B2DACEB0C6643DEC71A0A9F1609EA /* Pods-AdmoreUser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdmoreUser_Example-umbrella.h"; sourceTree = "<group>"; };
+		D34A77ADE32DE84C1281F97BE55EF6C7 /* Pods_AdmoreUser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdmoreUser_Example.framework; path = "Pods-AdmoreUser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58ED0EC672FBFC324B5A5C9C876A4C1 /* Pods-AdmoreUser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdmoreUser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D985511F1E6D99E5E1A46E80F8D4C610 /* Pods-AdmoreUser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdmoreUser_Example-resources.sh"; sourceTree = "<group>"; };
+		E2543D4A5E0361C4EC388FEFABBBE8DB /* Pods-AdmoreUser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdmoreUser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F55DD9CAABFDE138130849701DD4575B /* Pods-AdmoreUser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdmoreUser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630600724204B246A0465D4D222018F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332EB9B5E643C3CD20DDE2C7CB467AF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4711AF78AEDFA2FBEFBEBE6DFD16DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1506AFE3FFCC6BD93C24F608DFD153DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD75039B38AC5BF3661E435BA1DEFE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C70A46893A63CF8F96E7BFBD45D1A5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EBFCE4DA8B68E52CA810F837B498C5 /* AdmoreUser */ = {
+			isa = PBXGroup;
+			children = (
+				F8350F18532D5A1E6ED712620B45CCBD /* Classes */,
+			);
+			name = AdmoreUser;
+			path = AdmoreUser;
+			sourceTree = "<group>";
+		};
+		12943BD0D0C3988D0186310E09E5CAF0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD2A89EBC3DEB715DEBEFE42D219A0 /* AdmoreUser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		596743D6BC1FF3924CEF0EDF47573FCC /* Pods-AdmoreUser_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F3BC00A04AE179088D5A052809299CC /* Info.plist */,
+				5CFDCD1C7937B123F8F5A98921C7311A /* Pods-AdmoreUser_Tests.modulemap */,
+				F55DD9CAABFDE138130849701DD4575B /* Pods-AdmoreUser_Tests-acknowledgements.markdown */,
+				4CC358D37F47AC08F834D2C16279D800 /* Pods-AdmoreUser_Tests-acknowledgements.plist */,
+				C7BE5C08F0296D66787D87D700E33D9D /* Pods-AdmoreUser_Tests-dummy.m */,
+				715FDCD0B07A2336DBF90147F18588C5 /* Pods-AdmoreUser_Tests-frameworks.sh */,
+				9093D805E5D07BFCC240D1A0B4F20F27 /* Pods-AdmoreUser_Tests-resources.sh */,
+				A02E3DE0411A06C3E606FB63FA6DA6BD /* Pods-AdmoreUser_Tests-umbrella.h */,
+				017CD80F0A444A9EF4AC42C9852FD4D9 /* Pods-AdmoreUser_Tests.debug.xcconfig */,
+				A909F71E6125F6DD89A23EBE70A557D1 /* Pods-AdmoreUser_Tests.release.xcconfig */,
+			);
+			name = "Pods-AdmoreUser_Tests";
+			path = "Target Support Files/Pods-AdmoreUser_Tests";
+			sourceTree = "<group>";
+		};
+		757E4B48C3977B4C0A211D779CBB120E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C7B0AA95CE0B73BD09857B2A88DD9F /* AdmoreUser.framework */,
+				D34A77ADE32DE84C1281F97BE55EF6C7 /* Pods_AdmoreUser_Example.framework */,
+				59060267E3BD965DBF5E62A6E20EB841 /* Pods_AdmoreUser_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				12943BD0D0C3988D0186310E09E5CAF0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				757E4B48C3977B4C0A211D779CBB120E /* Products */,
+				C48FB6B12846B7A538DD6892880247E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48FB6B12846B7A538DD6892880247E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1145964899874DD4BB3DEA358F12F6 /* Pods-AdmoreUser_Example */,
+				596743D6BC1FF3924CEF0EDF47573FCC /* Pods-AdmoreUser_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C9FD2A89EBC3DEB715DEBEFE42D219A0 /* AdmoreUser */ = {
+			isa = PBXGroup;
+			children = (
+				04EBFCE4DA8B68E52CA810F837B498C5 /* AdmoreUser */,
+				FF1EB50A4802F8442FB2ACBBB4B75DBF /* Support Files */,
+			);
+			name = AdmoreUser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA1145964899874DD4BB3DEA358F12F6 /* Pods-AdmoreUser_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0A4530829109EB4623A0AC9581673312 /* Info.plist */,
+				18EDA12941A83297BB0745C52D496A14 /* Pods-AdmoreUser_Example.modulemap */,
+				D58ED0EC672FBFC324B5A5C9C876A4C1 /* Pods-AdmoreUser_Example-acknowledgements.markdown */,
+				86F5E77D7D51B7AFC16448D2F4C9B13D /* Pods-AdmoreUser_Example-acknowledgements.plist */,
+				84CF246EC11A4FD577B919673EE15ECD /* Pods-AdmoreUser_Example-dummy.m */,
+				918E4C7F174BE35A6FD4A4379DBB093A /* Pods-AdmoreUser_Example-frameworks.sh */,
+				D985511F1E6D99E5E1A46E80F8D4C610 /* Pods-AdmoreUser_Example-resources.sh */,
+				CB7B2DACEB0C6643DEC71A0A9F1609EA /* Pods-AdmoreUser_Example-umbrella.h */,
+				E2543D4A5E0361C4EC388FEFABBBE8DB /* Pods-AdmoreUser_Example.debug.xcconfig */,
+				8C3BBF12669948ADC63155D5D2E0D812 /* Pods-AdmoreUser_Example.release.xcconfig */,
+			);
+			name = "Pods-AdmoreUser_Example";
+			path = "Target Support Files/Pods-AdmoreUser_Example";
+			sourceTree = "<group>";
+		};
+		F8350F18532D5A1E6ED712620B45CCBD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				80CF8B1748C6B9A80C1095ECF540E7E6 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF1EB50A4802F8442FB2ACBBB4B75DBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EC67AC6C72E07072322384195F50144 /* AdmoreUser.modulemap */,
+				40D2B093E5E36F415B3723D5EF6ACA93 /* AdmoreUser.xcconfig */,
+				2FB19810E00362144CFCFCCD2A017CE0 /* AdmoreUser-dummy.m */,
+				787A05A0E8F7264C69A1E8D918741597 /* AdmoreUser-prefix.pch */,
+				B0A6548D1DB3F3F3D30FE8D72E5EBEF5 /* AdmoreUser-umbrella.h */,
+				B9F484C10EFCBFCF0CFD653FB2C36E64 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AdmoreUser";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		110B0AC306127BA8C8B37323C5618E17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D42BD7EDD67BAAF954049FEC425FBA /* Pods-AdmoreUser_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCE6B62DF90F2BC5DA5DBBF31591534 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28DE74943B7ECB975933E25686FA7B4 /* Pods-AdmoreUser_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55F5DD663B197AD4E918F7B123BD535 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFCE7E5C0A9F7C9834D3AB36B142430 /* AdmoreUser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E916CEF117E00832872251B642D42C /* Pods-AdmoreUser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D39B0D471FBEFEBAB2E15438B49FF0C /* Build configuration list for PBXNativeTarget "Pods-AdmoreUser_Example" */;
+			buildPhases = (
+				90ABAAE0C6B8F22F127CCDB3A1DB10A7 /* Sources */,
+				630600724204B246A0465D4D222018F2 /* Frameworks */,
+				110B0AC306127BA8C8B37323C5618E17 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980C9335344DBDBAA5554BAAEDA33793 /* PBXTargetDependency */,
+			);
+			name = "Pods-AdmoreUser_Example";
+			productName = "Pods-AdmoreUser_Example";
+			productReference = D34A77ADE32DE84C1281F97BE55EF6C7 /* Pods_AdmoreUser_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D86CD526211AB163462F611272EC11B /* AdmoreUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F31880A8856DB4CDD08E1C3F802132 /* Build configuration list for PBXNativeTarget "AdmoreUser" */;
+			buildPhases = (
+				9B98142B70BB3BA84C195110571B4C10 /* Sources */,
+				C4711AF78AEDFA2FBEFBEBE6DFD16DE4 /* Frameworks */,
+				A55F5DD663B197AD4E918F7B123BD535 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmoreUser;
+			productName = AdmoreUser;
+			productReference = C2C7B0AA95CE0B73BD09857B2A88DD9F /* AdmoreUser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBC429792B478E3885ECECF91DB23F04 /* Pods-AdmoreUser_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DF28140D0A02FED493F83C9C8ED1FC /* Build configuration list for PBXNativeTarget "Pods-AdmoreUser_Tests" */;
+			buildPhases = (
+				845CA76A6E44DC26619A3A19CA0E6C1C /* Sources */,
+				FD75039B38AC5BF3661E435BA1DEFE44 /* Frameworks */,
+				7FCE6B62DF90F2BC5DA5DBBF31591534 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AdmoreUser_Tests";
+			productName = "Pods-AdmoreUser_Tests";
+			productReference = 59060267E3BD965DBF5E62A6E20EB841 /* Pods_AdmoreUser_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 757E4B48C3977B4C0A211D779CBB120E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D86CD526211AB163462F611272EC11B /* AdmoreUser */,
+				07E916CEF117E00832872251B642D42C /* Pods-AdmoreUser_Example */,
+				FBC429792B478E3885ECECF91DB23F04 /* Pods-AdmoreUser_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845CA76A6E44DC26619A3A19CA0E6C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3E671FA1DE3B493CB769AE92773791 /* Pods-AdmoreUser_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ABAAE0C6B8F22F127CCDB3A1DB10A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A480174BF38D595841801D9195A8F8F /* Pods-AdmoreUser_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B98142B70BB3BA84C195110571B4C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D5AF79C01E3005E3DA4716FBD08517 /* AdmoreUser-dummy.m in Sources */,
+				770B3E68ED52929C1A1B92B8C19D2AB1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		980C9335344DBDBAA5554BAAEDA33793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdmoreUser;
+			target = 7D86CD526211AB163462F611272EC11B /* AdmoreUser */;
+			targetProxy = 914EE759126903763435DEB513465EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C5C3D7C96FCADCE3F25316FDD14DF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017CD80F0A444A9EF4AC42C9852FD4D9 /* Pods-AdmoreUser_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmoreUser_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmoreUser_Tests/Pods-AdmoreUser_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdmoreUser_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1ECD8F14DB3AF70BCD4F7918AD464EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2543D4A5E0361C4EC388FEFABBBE8DB /* Pods-AdmoreUser_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmoreUser_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmoreUser_Example/Pods-AdmoreUser_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdmoreUser_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35349D17EB5EC6AB3CCBA01A798D041B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D2B093E5E36F415B3723D5EF6ACA93 /* AdmoreUser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdmoreUser/AdmoreUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdmoreUser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdmoreUser/AdmoreUser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AdmoreUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5533BFD5B7F8BC570F938366FABDB2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A909F71E6125F6DD89A23EBE70A557D1 /* Pods-AdmoreUser_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmoreUser_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmoreUser_Tests/Pods-AdmoreUser_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdmoreUser_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FF1330408239E4D75B1BDA9DF87E3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D2B093E5E36F415B3723D5EF6ACA93 /* AdmoreUser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdmoreUser/AdmoreUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdmoreUser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdmoreUser/AdmoreUser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AdmoreUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D66F5064B959169ED5F7E2B0A041006E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3BBF12669948ADC63155D5D2E0D812 /* Pods-AdmoreUser_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdmoreUser_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdmoreUser_Example/Pods-AdmoreUser_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdmoreUser_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D39B0D471FBEFEBAB2E15438B49FF0C /* Build configuration list for PBXNativeTarget "Pods-AdmoreUser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECD8F14DB3AF70BCD4F7918AD464EDE /* Debug */,
+				D66F5064B959169ED5F7E2B0A041006E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DF28140D0A02FED493F83C9C8ED1FC /* Build configuration list for PBXNativeTarget "Pods-AdmoreUser_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5C3D7C96FCADCE3F25316FDD14DF8B /* Debug */,
+				5533BFD5B7F8BC570F938366FABDB2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F31880A8856DB4CDD08E1C3F802132 /* Build configuration list for PBXNativeTarget "AdmoreUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF1330408239E4D75B1BDA9DF87E3D1 /* Debug */,
+				35349D17EB5EC6AB3CCBA01A798D041B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - AdmoreUser (0.1.0)
+
+DEPENDENCIES:
+  - AdmoreUser (from `../`)
+
+EXTERNAL SOURCES:
+  AdmoreUser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AdmoreUser: cb697910695f87c2e302914df6f469c88b4ecb4d
+
+PODFILE CHECKSUM: c2497600a4f3b5a2d6c83f874f3de7c1e3f23457
+
+COCOAPODS: 1.2.1
