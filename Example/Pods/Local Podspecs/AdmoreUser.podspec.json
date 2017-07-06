@@ -1,9 +1,9 @@
 {
   "name": "AdmoreUser",
   "version": "0.1.0",
-  "summary": "A short description of AdmoreUser.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yuanshuai.ding@duodian.com/AdmoreUser",
+  "summary": "AdmoreUser.",
+  "description": "AdmoreUser的简单封装",
+  "homepage": "https://github.com/iOSDYS/AdmoreUser.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "yuanshuai.ding@duodian.com": "herodys@163.com"
   },
   "source": {
-    "git": "https://github.com/yuanshuai.ding@duodian.com/AdmoreUser.git",
+    "git": "https://github.com/iOSDYS/AdmoreUser.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AdmoreUser/Classes/**/*"
+  "source_files": "AdmoreUser/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

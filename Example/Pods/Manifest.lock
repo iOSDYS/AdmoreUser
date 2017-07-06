@@ -1,5 +1,21 @@
 PODS:
-  - AdmoreUser (0.1.0)
+  - AdmoreUser (0.1.0):
+    - AFNetworking
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
 
 DEPENDENCIES:
   - AdmoreUser (from `../`)
@@ -9,7 +25,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AdmoreUser: cb697910695f87c2e302914df6f469c88b4ecb4d
+  AdmoreUser: 3d705211f21e30d46456d39ad359481ad37ef5e1
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
 
 PODFILE CHECKSUM: c2497600a4f3b5a2d6c83f874f3de7c1e3f23457
 
